@@ -4,8 +4,8 @@ import urllib.parse
 print('Simple artist search tool written on the Spotify API by Kobe')
 
 # needed input from user
-client_id = 'd44426fbb7e240a8bdae017313e1c4a3'
-client_secret = '52d70e12bcf0417e838c789971caed26'
+client_id = input('client_id? ')
+client_secret = input('client_secret? ')
 
 while True:
     query = input('search for what artist? ')
